@@ -384,20 +384,20 @@ ul {
 .section-container {
   background-color: var(--violet-01);
   padding: 25rem;
-  /* clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%); */
+
   margin-top: -15rem;
 }
 .best-flowers {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-
+  justify-content: center;
+  align-items: end;
   gap: 2em;
   color: var(--violet-primary);
   border-radius: 0.5em;
   font-size: 2.5rem;
   padding-right: 3rem;
   margin: 0 auto;
-  /* clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%); */
 }
 
 .best-flowers h3 {
@@ -472,6 +472,7 @@ figure h3 {
 /* ******************************** */
 /* --------- SECTION TESTIMONIALS--------- */
 /* ******************************* */
+
 .section-testimonials {
   padding: 30rem;
   height: 50vh;
@@ -483,11 +484,12 @@ figure h3 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 3em;
+  min-width: 70%;
 }
 
 .people {
-  width: 13rem;
-  height: 13rem;
+  max-width: 40%;
+  height: auto;
   object-fit: cover;
   border-radius: 15%;
   display: block;
@@ -521,14 +523,13 @@ q {
 }
 .customers {
   position: relative;
+  display: flex;
 }
 .customers-name {
-  position: absolute;
-  top: 50%;
-  left: 40%;
   font-size: 3rem;
   color: var(--violet-07);
   font-weight: bold;
+  margin-left: 2rem;
 }
 
 /* ******************************** */
