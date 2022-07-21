@@ -1,7 +1,36 @@
-nav {
+nav,
+.hero-img {
   display: none;
 }
 
 .section-hero {
-  height: 65vh;
+  height: 40vh;
+}
+
+.grid {
+  display: block;
+}
+.btn-container {
+  flex-direction: row;
+}
+.hero-text-box {
+  display: block;
+}
+
+.img-products {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.for-overflow {
+  display: flex;
+}
+
+.product-container {
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.headlines {
+  width: 150%;
 }
