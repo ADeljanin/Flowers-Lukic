@@ -1,14 +1,14 @@
 html {
-  font-size: 45.5%;
+  font-size: 50%;
 }
 .section-hero {
   height: 60vh;
 }
 
 .section-testimonials {
-  padding: 20rem;
+  margin-top: 0rem;
 }
 
 .about-us-section {
-  gap: 15em;
+  gap: 5em;
 }

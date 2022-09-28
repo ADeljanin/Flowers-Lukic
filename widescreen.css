@@ -3,6 +3,7 @@
   margin: 0;
   align-items: flex-start;
   height: 50vh;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
 }
 
 .section-hero h1 {
@@ -30,7 +31,7 @@
   padding-top: 10rem;
 }
 
-.section-testimonials {
+.section-container {
   padding: 10rem;
 }
 
@@ -42,7 +43,14 @@
 .section-testimonials {
   margin-top: 0;
   margin-bottom: 0;
+  height: auto;
+  padding: 10rem;
 }
+
+footer {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
 .footer-text {
   flex-direction: column;
   gap: 1rem;

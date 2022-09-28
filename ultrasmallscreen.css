@@ -1,0 +1,22 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.section-hero {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.header-container {
+  padding: 2rem;
+}
+
+.section-why-us {
+  transform: skewY(0deg);
+}
+
+.skew-back {
+  transform: skewY(0deg);
+}

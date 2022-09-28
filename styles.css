@@ -383,9 +383,9 @@ ul {
 }
 .section-container {
   background-color: var(--violet-01);
-  padding: 25rem;
+  padding: 13rem;
 
-  margin-top: -15rem;
+  margin-top: -8rem;
 }
 .best-flowers {
   display: grid;
@@ -524,6 +524,7 @@ q {
 .customers {
   position: relative;
   display: flex;
+  align-items: center;
 }
 .customers-name {
   font-size: 3rem;
