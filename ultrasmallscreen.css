@@ -15,6 +15,9 @@ body {
   width: 150%;
 }
 
+.hero-text-box {
+  margin: 0 1.5rem;
+}
 .header-container {
   padding: 2rem;
 }
@@ -25,4 +28,21 @@ body {
 
 .skew-back {
   transform: skewY(0deg);
+}
+
+.best-flowers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6rem;
+}
+
+figure h3 {
+  margin-bottom: 0;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
