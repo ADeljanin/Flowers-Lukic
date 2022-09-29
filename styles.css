@@ -88,7 +88,6 @@ medium: 11px
 }
 
 .logo:hover {
-  /* transform: rotateY(30deg); */
   box-shadow: 6px 10px 3px var(--violet-03);
 }
 
@@ -118,11 +117,6 @@ medium: 11px
 /* --------- SECTION HERO --------- */
 /* ******************************* */
 .section-hero {
-  /* background-image: linear-gradient(
-    to bottom,
-    var(--violet-08),
-    var(--violet-02)
-  ); */
   background-image: linear-gradient(
       to right,
       rgba(208, 191, 255, 0.8),
@@ -237,7 +231,7 @@ medium: 11px
   font-weight: bolder;
 }
 .hero-img {
-  max-width: 70%;
+  max-width: 40rem;
   height: auto;
   display: block;
   margin: 0 auto;
@@ -329,11 +323,8 @@ medium: 11px
       rgba(150, 117, 250, 0.9)
     ),
     url(./img/bgskew1.jpg);
-  /* background-position: 6rem -3rem; */
   background-size: cover;
   padding: 12rem 0 16rem 0;
-  /* clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%); */
-  /* clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%); */
   transform: skewY(-7deg);
   margin-top: 10rem;
 }
@@ -384,9 +375,9 @@ ul {
 .section-container {
   background-color: var(--violet-01);
   padding: 13rem;
-
-  margin-top: -8rem;
+  margin-top: -9rem;
 }
+
 .best-flowers {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -396,7 +387,6 @@ ul {
   color: var(--violet-primary);
   border-radius: 11px;
   font-size: 2.5rem;
-  padding-right: 3rem;
   margin: 0 auto;
 }
 
@@ -439,6 +429,7 @@ figure h3 {
   border-radius: 11px;
   justify-self: center;
 }
+
 .buy-flower:hover,
 .buy-flower:active {
   color: white;
@@ -468,7 +459,6 @@ figure h3 {
 .price-flex p {
   font-size: 7rem;
   font-family: "Shalimar", cursive;
-  /* text-shadow: 1px 5px 2px var(--violet-04); */
   font-weight: bold;
 }
 
@@ -478,7 +468,7 @@ figure h3 {
 
 .section-testimonials {
   padding: 9rem;
-  height: 50vh;
+  height: 82vh;
   margin-bottom: -12rem;
 }
 
@@ -490,7 +480,7 @@ figure h3 {
 }
 
 .people {
-  max-width: 40%;
+  max-width: 20rem;
   height: auto;
   object-fit: cover;
   border-radius: 15%;
