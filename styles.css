@@ -479,8 +479,7 @@ figure h3 {
 .section-testimonials {
   padding: 9rem;
   height: 50vh;
-  margin-bottom: -15rem;
-  margin-top: -28rem;
+  margin-bottom: -12rem;
 }
 
 .about-us-section {
@@ -544,8 +543,7 @@ q {
 
 footer {
   background-color: var(--grey);
-  padding: 1em 0;
-  padding: 12rem;
+  padding: 7rem;
   clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
   font-size: 2rem;
   color: var(--white);
