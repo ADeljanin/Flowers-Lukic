@@ -11,7 +11,8 @@ nav,
 }
 
 .section-hero {
-  height: 40vh;
+  height: 90vh;
+  align-items: center;
 }
 
 .grid {

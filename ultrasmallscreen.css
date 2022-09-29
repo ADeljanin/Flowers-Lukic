@@ -7,6 +7,12 @@ body {
 
 .section-hero {
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  display: flex;
+  align-items: center;
+}
+
+.btn-container {
+  width: 150%;
 }
 
 .header-container {
