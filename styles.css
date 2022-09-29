@@ -242,7 +242,7 @@ medium: 11px
   display: block;
   margin: 0 auto;
   box-shadow: 0.5rem 0.5rem 2rem rgba(255, 255, 255, 0.671);
-  border-radius: 1rem;
+  border-radius: 11px;
 }
 /* ******************************** */
 /* --------- SECTION OUR PRODUCTS --------- */
@@ -285,7 +285,7 @@ medium: 11px
   padding: 4rem;
   z-index: 10;
   box-shadow: 5px 5px 20px var(--violet-04);
-  border-radius: 1rem;
+  border-radius: 11px;
 }
 
 .close-products {
@@ -350,7 +350,7 @@ medium: 11px
   text-align: center;
   line-height: 1.4;
   transition: all 0.5s;
-  border-radius: 0.5rem;
+  border-radius: 9px;
 }
 
 .why-text:hover {
@@ -394,7 +394,7 @@ ul {
   align-items: end;
   gap: 2em;
   color: var(--violet-primary);
-  border-radius: 0.5em;
+  border-radius: 11px;
   font-size: 2.5rem;
   padding-right: 3rem;
   margin: 0 auto;
@@ -413,6 +413,9 @@ ul {
 
 figure {
   justify-self: center;
+  box-shadow: 3px 3px 10px var(--violet-03);
+  padding: 2rem;
+  border-radius: 11px;
 }
 figure h3 {
   font-size: 3rem;
@@ -433,7 +436,7 @@ figure h3 {
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
-  border-radius: 1em;
+  border-radius: 11px;
   justify-self: center;
 }
 .buy-flower:hover,
@@ -474,7 +477,7 @@ figure h3 {
 /* ******************************* */
 
 .section-testimonials {
-  padding: 30rem;
+  padding: 9rem;
   height: 50vh;
   margin-bottom: -15rem;
   margin-top: -28rem;
@@ -525,7 +528,9 @@ q {
   position: relative;
   display: flex;
   align-items: center;
+  box-shadow: none;
 }
+
 .customers-name {
   font-size: 3rem;
   color: var(--violet-07);

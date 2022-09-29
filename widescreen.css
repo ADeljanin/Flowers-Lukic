@@ -35,6 +35,14 @@
   padding: 10rem;
 }
 
+.section-why-us {
+  transform: skewY(0deg);
+}
+
+.skew-back {
+  transform: skewY(0deg);
+}
+
 .best-flowers {
   grid-template-columns: repeat(2, 1fr);
   gap: 15rem;
